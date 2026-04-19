@@ -9,7 +9,7 @@ public class Bai2_3SoChiHetLonNhat {
         long a= scanner.nextLong();
         long b= scanner.nextLong();
 
-        //Cong thuc
+        //Cong thuc (Phep chia chi lay phan nghuyen)
         System.out.printf("%d",((a-1)/b)*b);
     }
 }
