@@ -18,7 +18,7 @@ public class TimSoNguyenTo_OLD {
         boolean check=true;
         for(int i=0;i<n;i++){
             for(long j=a[i];j<=b[i];j++){ //Chay tu a[i] den b[i]
-                if(j<2) continue;
+                if(j%2==0&&j!=2)) continue;
                 for(int k=2;k<=sqrt(j);k++){ //Chay tu 2 den can bac 2 (j)
                     if(j%k==0){
                         check=false;
