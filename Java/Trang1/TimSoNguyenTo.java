@@ -1,5 +1,5 @@
 package Trang1;
-// Chay van ton qua nhieu thoi gian
+// 7/9, So qua to thi chay khong dat yeu cau thoi gian
 import java.util.Scanner;
 
 import static java.lang.Math.sqrt;
